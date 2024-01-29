@@ -6,6 +6,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 ## complete demo site
 
+https://learn-next-liart-xi.vercel.app/dashboard
+
 ### login info
 
 Email: user@nextmail.com  
