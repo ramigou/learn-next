@@ -4,6 +4,11 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from './ui/fonts';
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export default function Page() {
   return (
@@ -21,7 +26,6 @@ export default function Page() {
               Next.js Learn Course
             </a>
             , brought to you by Vercel.
-            <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent" />
             <div className={styles.shape} />
           </p>
 
